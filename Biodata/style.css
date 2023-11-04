@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container :hover {
+    color: rgb(241, 155, 57);
+    transition: all .5s ease-in-out;
+    animation-duration: 1s;
+}
+
+.menu-container {
+    display: flex;
+    background-color: bisque;
+    background-size: 100px;
+    padding: 10px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.img {
+    display: flex;
+    justify-content: right;
+}
+
+.spasi {
+    color: bisque;
+}
+
+.spasi2 {
+    color: beige;
+}
+
+.search {
+    display: flex;
+    font-style: italic;
+    border: 1px;
+    border-color: rgb(77, 51, 21);
+    width: 200px;
+    height: 25px;
+    border-radius: 0px;
+    border-style: solid;
+}
+
+.konten {
+    display: flex;
+    padding: 15px;
+    background-color: beige;
+    justify-content: left;
+}
+
+.bg {
+    display: flex;
+    padding: 29px;
+}
+
+.foto {
+    border: 4px;
+    border-color: rgb(221, 181, 132);
+    border-style: solid;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.cek {
+    color: rgb(167, 121, 65);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sosmed {
+    display: flex;
+}
+
+.kiri {
+    text-align: center;
+}
+
+.nama {
+    font-size: 40px;
+
+}
+
+.npm {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.kanan {
+    display: flex;
+    text-align: right;
+}
+
+.kanan {
+    display: flex;
+}
+
+.me {
+    font-size: 50px;
+}
+
+.isi {
+    font-size: 21px;
+    text-align: justify;
+}
+
+.bawah {
+    display: flex;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
+    background-size: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-box {
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 7px;
+    border-radius: 32px;
+    box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
+    margin-left: 2%;
+}
+
+.search-box input {
+    border: 0;
+    background-color: transparent;
+    font-size: 16px;
+    width: 0;
+    transition: 0.8s;
+}
+
+.search-box:hover input {
+    width: 130px;
+
+}
+
+.search-box button {
+    padding: 10px;
+    border: 0;
+    background-color: rgb(167, 121, 65);
+    color: #fff;
+    font-size: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
